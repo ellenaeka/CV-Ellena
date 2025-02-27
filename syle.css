@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #041e35;
+}
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #c7d1f4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h1 {
+    margin-top: 10px;
+}
+hr {
+    margin: 20px 0;
+    border: 1px solid #041e35;
+}
+.section {
+    text-align: left;
+    margin: 20px 0;
+}
